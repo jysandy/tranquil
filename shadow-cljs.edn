@@ -1,0 +1,8 @@
+{:deps     true
+ ;:dev-http {8080 "public"}
+
+ :builds
+ {:frontend
+  {:target :browser
+   :modules {:main {:entries [tranquil.animation]}}
+   }}}
