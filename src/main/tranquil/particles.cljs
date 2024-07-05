@@ -1,7 +1,8 @@
 (ns tranquil.particles
   (:require [quil.core :as q]
             [tranquil.vector :as vector]
-            [tranquil.utils :as u]))
+            [tranquil.utils :as u])
+  (:require-macros [quil.core]))
 
 (comment
   ;; A particle looks like this:
